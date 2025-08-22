@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { jogosService } from '../services/jogosService'
+import { jogosService } from '../lib/jogosService'
 import { toast } from 'react-hot-toast'
 import { useAuth } from '../contexts/AuthContext'
 
